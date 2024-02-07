@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    height: 100vh;
+    color: #fff;
+    padding: 20px;
+}
+.box-green {
+    background: green;
+}
+.box-red {
+    background: red;
+}
+.box-yellow {
+    background: yellow;
+    color: green;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.square {
+    height: 50vw;
+    width: 50vw;
+    background-color: #fff
+}
+
+h2 {
+    font-size: clamp(28px, 2.5vw, 46px);
+}
